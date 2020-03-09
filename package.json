@@ -1,0 +1,26 @@
+{
+  "name": "readmegen",
+  "version": "1.0.0",
+  "description": "README Generator ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tajohnsonn/Homework9-GoodREADMEGenerator.git"
+  },
+  "author": "Taylor Johnson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tajohnsonn/Homework9-GoodREADMEGenerator/issues"
+  },
+  "homepage": "https://github.com/tajohnsonn/Homework9-GoodREADMEGenerator#readme",
+  "keywords": [
+    "read.me"
+  ],
+  "dependencies": {
+    "axios": "^0.19.2",
+    "inquirer": "^7.0.6"
+  }
+}
