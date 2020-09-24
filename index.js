@@ -21,7 +21,7 @@ inquirer
     },
     {
       type: "input",
-      messgae: "What kind of licsense should your project have?",
+      messgae: "What kind of license should your project have?",
       name: "license"
     },
     {

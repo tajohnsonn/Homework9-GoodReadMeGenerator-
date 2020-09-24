@@ -1,11 +1,11 @@
 
 
-# ReadMeGenerator 
+# README Generator 
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
 
 ## Description
-This is a good readme generator 
+This project will generate a README file using prompts in the terminal, using inquirer.
 
 
 
@@ -21,18 +21,18 @@ This is a good readme generator
 
 ## Installation
 To install necessary dependencies, run the following command:
-npm init 
+Npm init 
 
 ## Usage
-this is a useful tool if you do not want to create a readme manually 
+All you will need to do is clone this repo to your local device
 
 ## License
-MIT 
+MIT
 ## Contributing
-
+lease connect with me if you have any issues or if you would like to contribute to this project
 ## Tests
 To perform a test, run the following command:
-
+node index.js to run file.
 
 
 ## Questions
