@@ -18,6 +18,7 @@ This project will generate a README file using prompts in the terminal, using in
 * [Tests](#Tests)
 * [Questions](#Questions)
 
+<img width="679" alt="Screen Shot 2020-09-24 at 3 48 10 AM" src="https://user-images.githubusercontent.com/57122209/94136094-45fbf880-fe19-11ea-9e49-d2babc4c6562.png">
 
 
 ## Installation
