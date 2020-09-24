@@ -7,6 +7,7 @@
 ## Description
 This project will generate a README file using prompts in the terminal, using inquirer.
 
+![README Generator Gif](https://user-images.githubusercontent.com/57122209/94136034-311f6500-fe19-11ea-9ed1-692a86b22211.gif)
 
 
 ## Table of Contents
