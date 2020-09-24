@@ -29,7 +29,7 @@ All you will need to do is clone this repo to your local device
 ## License
 MIT
 ## Contributing
-lease connect with me if you have any issues or if you would like to contribute to this project
+please connect with me if you have any issues or if you would like to contribute to this project
 ## Tests
 To perform a test, run the following command:
 node index.js to run file.
