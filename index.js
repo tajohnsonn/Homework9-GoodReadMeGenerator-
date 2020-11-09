@@ -1,7 +1,10 @@
+// bring in required libraries
+
 const inquirer = require("inquirer");
 const fs = require("fs");
 const axios = require("axios");
 
+// these are the questions being asked in the terminal
 inquirer
   .prompt([
     {
@@ -46,10 +49,13 @@ inquirer
       name: "contribution"
     }
   ])
+
+  // then create the readme file with user responses
   .then(function(response) {
     const api = `https://api.github.com/users/${response.user}`;
     axios.get(api).then(function() {
       const data = `
+
 
 # ${response.project}
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
@@ -73,10 +79,8 @@ ${response.description}
 ## Installation
 To install necessary dependencies, run the following command:
 ${response.dependencies}
-
 ## Usage
 ${response.about}
-
 ## License
 ${response.license}
 ## Contributing
@@ -86,7 +90,7 @@ To perform a test, run the following command:
 ${response.test}
 
 
-## Questions
+## Questions??
 
 
 ---
